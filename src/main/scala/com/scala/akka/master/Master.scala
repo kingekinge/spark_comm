@@ -56,7 +56,7 @@ class Master extends  Actor{
 object  Master{
 
   def main(args: Array[String]) {
-    val host ="192.168.1.104"
+    val host ="192.168.1.104" //Master主机地址
     val port ="8899"
     val confstr=s"""
      |akka.actor.provider = "akka.remote.RemoteActorRefProvider"
